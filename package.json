@@ -1,0 +1,26 @@
+{
+    "name": "jwtcookieauth",
+    "version": "0.0.1",
+    "description": "Cookie Base Authentication Using JWT token for NodeJS",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hardikhari96/JWTCookieAuth.git"
+    },
+    "keywords": [
+        "jwt",
+        "auth",
+        "cookie",
+        "authentication",
+        "token"
+    ],
+    "author": "Harikrushn Patel",
+    "license": "MIT License",
+    "bugs": {
+        "url": "https://github.com/hardikhari96/JWTCookieAuth/issues"
+    },
+    "homepage": "https://github.com/hardikhari96/JWTCookieAuth#readme"
+}
