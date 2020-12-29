@@ -1,6 +1,6 @@
 {
     "name": "jwtcookieauth",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Cookie Base Authentication Using JWT token for NodeJS",
     "main": "build/index.js",
     "scripts": {
@@ -10,9 +10,6 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/hardikhari96/JWTCookieAuth.git"
-    },
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com"
     },
     "keywords": [
         "jwt",
