@@ -1,14 +1,18 @@
 {
     "name": "jwtcookieauth",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "description": "Cookie Base Authentication Using JWT token for NodeJS",
-    "main": "index.js",
+    "main": "build/index.js",
     "scripts": {
+        "build": "npx babel ./src/index.js --out-file ./build/index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/hardikhari96/JWTCookieAuth.git"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
     },
     "keywords": [
         "jwt",
@@ -22,5 +26,10 @@
     "bugs": {
         "url": "https://github.com/hardikhari96/JWTCookieAuth/issues"
     },
-    "homepage": "https://github.com/hardikhari96/JWTCookieAuth#readme"
+    "homepage": "https://github.com/hardikhari96/JWTCookieAuth#readme",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "eslint": "^7.16.0"
+    }
 }
